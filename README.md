@@ -39,7 +39,8 @@ Monta tu Google Drive cuando se te indique.
      `/content/drive/MyDrive/Proyecto/Proyecto/data_main/`
      `/content/drive/MyDrive/Proyecto/Proyecto/best_model.pt`
 3. Una vez montado el Drive en Colab, el notebook cargará los datos automáticamente.
-nota: el repo tambnien incluye el csv de los metadatos poi_dataser y el zip de las imagenes data_main de no poder acceder al drive
+nota: el repo tambnien incluye el csv de los metadatos poi_dataser y el zip de las imagenes data_main de no poder acceder al drive, 
+vinculo publico de la carpeta de proyecto https://drive.google.com/drive/folders/1Sakn-Tm8jA1UuxBD1VT1xLBKgmX0La6F?usp=sharing
 
 Entrenamiento:
 

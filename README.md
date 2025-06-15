@@ -9,15 +9,6 @@ Construir y comparar dos modelos:
 1. **Modelo 1 (Propio)**: CNN y MLP diseñados desde cero.
 2. **Modelo 2 (Multimodal con ResNet18)**: Utiliza una CNN preentrenada + MLP estructurado.
 ---
-## 📁 Estructura del Repositorio
-📦 proyecto-turismo/
-│
-├── Practica_final_DP.ipynb # Notebook con todo el análisis, modelos y resultados
-├── requirements.txt # Dependencias exactas usadas
-├── best_model.pt # Pesos del mejor modelo entrenado (Modelo 2)
-├── memoria_tecnica.pdf # Documento explicativo completo del proyecto
-├── README.md # Este archivo
----
 ## ⚙️ Requisitos
 
 Se recomienda ejecutar el proyecto en **Google Colab** para aprovechar aceleración por GPU.
@@ -31,21 +22,16 @@ Se recomienda ejecutar el proyecto en **Google Colab** para aprovechar aceleraci
 Clona el repositorio:
 
 bash
-Copiar
-Editar
-git clone https://github.com/tu_usuario/proyecto-turismo.git
-cd proyecto-turismo
-Ejecuta el notebook en Google Colab:
-
-Abre Practica_final_DP.ipynb en Google Colab.
-
+git clone https://github.com/kevinmarq1/Deep_Learning
+descomprime
+Practrica_final_DL_KC.zip
+abre con colab
+Practica_final_DP (3).ipynb
 Monta tu Google Drive cuando se te indique.
 
 Asegúrate de tener la carpeta Proyecto en tu Google Drive con esta estructura:
+nota: el repo tambnien incluye el csv de los metadatos poi_dataser y el zip de las imagenes data_main de no poder acceder al drive
 
-css
-Copiar
-Editar
 /Proyecto/
 ├── poi_dataset.csv
 └── data_main/

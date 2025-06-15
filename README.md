@@ -28,18 +28,19 @@ Practrica_final_DL_KC.zip
 abre con colab
 Practica_final_DP (3).ipynb
 Monta tu Google Drive cuando se te indique.
+📁 **Importante**: Este proyecto está diseñado para ejecutarse en Google Colab.
+📁 **Importante**: Este proyecto está diseñado para ejecutarse en Google Colab.
 
-Asegúrate de tener la carpeta Proyecto en tu Google Drive con esta estructura:
+1. Sube el contenido de `proyecto.zip` a tu Google Drive.
+2. Descomprime manualmente `proyecto.zip` en la siguiente ruta:
+   `MyDrive/Proyecto/Proyecto`
+3. Asegúrate de que la estructura final sea así:
+     `/content/drive/MyDrive/Proyecto/Proyecto/poi_dataset.csv`  
+     `/content/drive/MyDrive/Proyecto/Proyecto/data_main/`
+     `/content/drive/MyDrive/Proyecto/Proyecto/best_model.pt`
+3. Una vez montado el Drive en Colab, el notebook cargará los datos automáticamente.
 nota: el repo tambnien incluye el csv de los metadatos poi_dataser y el zip de las imagenes data_main de no poder acceder al drive
 
-/Proyecto/
-├── poi_dataset.csv
-└── data_main/
-    ├── poi_id_1/
-    │   └── main.jpg
-    ├── poi_id_2/
-    │   └── main.jpg
-    └── ...
 Entrenamiento:
 
 Si no existe un modelo entrenado, el notebook comenzará a entrenar automáticamente.
